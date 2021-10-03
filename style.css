@@ -2,7 +2,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body{
-    background: lightslategrey;
+    background: #b3cad7;;
     text-align: center;
 }
 #header{
@@ -50,4 +50,9 @@ p{
   }
   #cod{
       color: #cc0;
+  }
+  img{
+      width: 700px;
+      height: 400px;
+      padding: 10px;
   }
