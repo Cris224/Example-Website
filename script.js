@@ -7,3 +7,12 @@ function toggleGowImgs(){
     gowPics.style.display = "none";
   }
 }
+function toggleCodImgs(){
+  const codPics = document.getElementById('codPics');
+  if (codPics.style.display === "none"){
+    codPics.style.display = "";
+  }
+  else{
+    codPics.style.display = "none";
+  }
+}
