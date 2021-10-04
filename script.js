@@ -16,3 +16,12 @@ function toggleCodImgs(){
     codPics.style.display = "none";
   }
 }
+function toggleR6Imgs(){
+  const r6Pics = document.getElementById('r6Pics');
+  if (r6Pics.style.display === "none"){
+    r6Pics.style.display = "";
+  }
+  else{
+    r6Pics.style.display = "none";
+  }
+}
