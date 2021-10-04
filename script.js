@@ -7,34 +7,21 @@ function toggleGowImgs(){
       r6Pics.style.display = "none";
       codPics.style.display = "none";
     }
-    else{
-      gowPics.style.display = "none";
+
   }
-  }
+  
   function toggleCodImgs(){
     if (codPics.style.display === "none"){
       codPics.style.display = "";
       gowPics.style.display = "none";
       r6Pics.style.display = "none"
     }
-    else{
-      codPics.style.display = "none";
     }
-    }
+    
     function toggleR6Imgs(){
     if (r6Pics.style.display === "none"){
       r6Pics.style.display = "";
       gowPics.style.display = "none";
       codPics.style.display = "none";
     }
-    else{
-      r6Pics.style.display = "none";
-    }
-  }
-
-
-
-
- // if (r6Pics.style.display = "") {
- //   codPics.style.display ==="none";
- //   gowPics.style.display === "none";
+  } 

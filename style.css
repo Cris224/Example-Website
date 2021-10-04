@@ -56,4 +56,15 @@ p{
       height: 400px;
       padding: 10px;
   }
-  
+#footer{
+    background: black;
+    padding: 15px;
+    font-size: medium;
+    color: white;
+    margin: auto;
+    display: block;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+}
