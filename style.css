@@ -22,12 +22,11 @@ p{
 #intro{
     background: white;
     padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
     display: block;
-    margin-block-start: 20px;
-    margin-block-end: 20px;
+    margin-block-start:20px;
+    margin-block-end:20px;
     margin-inline-start: 20px;
     margin-inline-end: 20px;
 }
@@ -41,12 +40,17 @@ p{
     margin: 4px 30px;
     cursor: pointer;
     border-radius: 10px;
+    text-shadow: 0 0 3px #3476f1;
+  }
+  .button:hover{
+    box-shadow: 0 0 5px black; 
+    transition: ease-in-out .3s;
   }
   #r6{
       color: white;
   }
   #gow{
-      color: #990000;
+      color: #c90000;
   }
   #cod{
       color: #cc0;
@@ -54,7 +58,10 @@ p{
   img{
       width: 700px;
       height: 400px;
-      padding: 10px;
+      padding: 0px;
+      transition: ease-in-out .3s;
+      border: 1px solid #ccc;
+      border-radius: 10px;
   }
 #footer{
     background: black;
@@ -68,3 +75,6 @@ p{
     margin-inline-start: 20px;
     margin-inline-end: 20px;
 }
+.input:hover {
+    box-shadow: 0 0 8px navy; 
+  }
